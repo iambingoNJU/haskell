@@ -1,0 +1,11 @@
+Name: mypretty
+Version: 0.1
+Synopsis: Pretty printing library for json data.
+Description: A simple pretty printing library that illustrates how to
+  develop a Haskell library.
+Author: bingo
+Maintainer: abc@google.com
+Cabal-Version: >= 1.2
+library
+    Exposed-Modules: SimpleJSON
+    Build-Depends:   base >= 2.0
